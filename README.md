@@ -1,3 +1,7 @@
+This app may be live at:
+
+[pakyow-warmup.octohost.io](http://pakyow-warmup.octohost.io)
+
 This app was generated for pakyow-0.8.
 
 ---
