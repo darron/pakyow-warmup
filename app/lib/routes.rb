@@ -1,7 +1,7 @@
 Pakyow::App.routes do
   restful :tweet, '/' do
     list do
-      tweets = client.search("octohost", result_type: "recent").take(10).to_a
+      tweets = client.search("octohost", result_type: "recent").take(25).to_a
       view.scope(:tweet).apply(tweets)
     end
 
